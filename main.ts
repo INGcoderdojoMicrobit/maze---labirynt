@@ -3,11 +3,11 @@ namespace SpriteKind {
 }
 function setLevel (lvl: number) {
     if (lvl == 0) {
-        tiles.setTilemap(tilemap`level_Michal`)
+        tiles.setTilemap(tilemap`level_Adam`)
     } else if (lvl == 1) {
         tiles.setTilemap(tilemap`level2`)
     } else if (lvl == 2) {
-        tiles.setTilemap(tilemap`level1`)
+        tiles.setTilemap(tilemap`level0`)
     }
 }
 function create_wroga () {
