@@ -3,11 +3,19 @@ namespace SpriteKind {
 }
 function setLevel (lvl: number) {
     if (lvl == 0) {
-        tiles.setTilemap(tilemap`level_Adam`)
+        tiles.setTilemap(tilemap`level1`)
     } else if (lvl == 1) {
         tiles.setTilemap(tilemap`level2`)
     } else if (lvl == 2) {
-        tiles.setTilemap(tilemap`level0`)
+        tiles.setTilemap(tilemap`level_Michalina`)
+    } else if (lvl == 3) {
+        tiles.setTilemap(tilemap`level_MaksG`)
+    } else if (lvl == 4) {
+        tiles.setTilemap(tilemap`level_Michal`)
+    } else if (lvl == 5) {
+        tiles.setTilemap(tilemap`level_Adam2`)
+    } else if (lvl == 6) {
+        tiles.setTilemap(tilemap`level_Kornel`)
     }
 }
 function create_wroga () {
@@ -702,7 +710,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.castle.tilePath6, function (sprit
     pocisk = 0
     create_ciastko()
     create_wroga()
-    if (level == 1) {
+    if (level >= 1) {
         for (let index = 0; index < randint(1, 4); index++) {
             create_ciastko()
         }
