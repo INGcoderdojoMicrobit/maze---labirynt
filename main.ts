@@ -19,7 +19,7 @@ function setLevel (lvl: number) {
     }
 }
 function create_wroga () {
-    if (Math.percentChance(50)) {
+    if (Math.percentChance(10)) {
         wrog = sprites.create(img`
             ........................
             ........................
@@ -156,6 +156,140 @@ function create_wroga () {
         wrog.setVelocity(50, 50)
         wrog.setStayInScreen(false)
         wrog.setBounceOnWall(true)
+        wrog.z = 1
+    } else if (Math.percentChance(90)) {
+        wrog = sprites.create(img`
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . b 5 5 b . . . 
+            . . . . . . b b b b b b . . . . 
+            . . . . . b b 5 5 5 5 5 b . . . 
+            . b b b b b 5 5 5 5 5 5 5 b . . 
+            . b d 5 b 5 5 5 5 5 5 5 5 b . . 
+            . . b 5 5 b 5 d 1 f 5 d 4 f . . 
+            . . b d 5 5 b 1 f f 5 4 4 c . . 
+            b b d b 5 5 5 d f b 4 4 4 4 b . 
+            b d d c d 5 5 b 5 4 4 4 4 4 4 b 
+            c d d d c c b 5 5 5 5 5 5 5 b . 
+            c b d d d d d 5 5 5 5 5 5 5 b . 
+            . c d d d d d d 5 5 5 5 5 d b . 
+            . . c b d d d d d 5 5 5 b b . . 
+            . . . c c c c c c c c b b . . . 
+            `, SpriteKind.Enemy)
+        animation.runImageAnimation(
+        wrog,
+        [img`
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . b 5 5 b . . . 
+            . . . . . . b b b b b b . . . . 
+            . . . . . b b 5 5 5 5 5 b . . . 
+            . b b b b b 5 5 5 5 5 5 5 b . . 
+            . b d 5 b 5 5 5 5 5 5 5 5 b . . 
+            . . b 5 5 b 5 d 1 f 5 d 4 f . . 
+            . . b d 5 5 b 1 f f 5 4 4 c . . 
+            b b d b 5 5 5 d f b 4 4 4 4 b . 
+            b d d c d 5 5 b 5 4 4 4 4 4 4 b 
+            c d d d c c b 5 5 5 5 5 5 5 b . 
+            c b d d d d d 5 5 5 5 5 5 5 b . 
+            . c d d d d d d 5 5 5 5 5 d b . 
+            . . c b d d d d d 5 5 5 b b . . 
+            . . . c c c c c c c c b b . . . 
+            `,img`
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . b 5 b . . . 
+            . . . . . . . . . b 5 b . . . . 
+            . . . . . . b b b b b b . . . . 
+            . . . . . b b 5 5 5 5 5 b . . . 
+            . b b b b b 5 5 5 5 5 5 5 b . . 
+            . b d 5 b 5 5 5 5 5 5 5 5 b . . 
+            . . b 5 5 b 5 d 1 f 5 d 4 f . . 
+            . . b d 5 5 b 1 f f 5 4 4 c . . 
+            b b d b 5 5 5 d f b 4 4 4 4 4 b 
+            b d d c d 5 5 b 5 4 4 4 4 4 b . 
+            c d d d c c b 5 5 5 5 5 5 5 b . 
+            c b d d d d d 5 5 5 5 5 5 5 b . 
+            . c d d d d d d 5 5 5 5 5 d b . 
+            . . c b d d d d d 5 5 5 b b . . 
+            . . . c c c c c c c c b b . . . 
+            `,img`
+            . . . . . . . . . . b 5 b . . . 
+            . . . . . . . . . b 5 b . . . . 
+            . . . . . . . . . b c . . . . . 
+            . . . . . . b b b b b b . . . . 
+            . . . . . b b 5 5 5 5 5 b . . . 
+            . . . . b b 5 d 1 f 5 5 d f . . 
+            . . . . b 5 5 1 f f 5 d 4 c . . 
+            . . . . b 5 5 d f b d d 4 4 . . 
+            b d d d b b d 5 5 5 4 4 4 4 4 b 
+            b b d 5 5 5 b 5 5 4 4 4 4 4 b . 
+            b d c 5 5 5 5 d 5 5 5 5 5 b . . 
+            c d d c d 5 5 b 5 5 5 5 5 5 b . 
+            c b d d c c b 5 5 5 5 5 5 5 b . 
+            . c d d d d d d 5 5 5 5 5 d b . 
+            . . c b d d d d d 5 5 5 b b . . 
+            . . . c c c c c c c c b b . . . 
+            `,img`
+            . . . . . . . . . . b 5 b . . . 
+            . . . . . . . . . b 5 b . . . . 
+            . . . . . . b b b b b b . . . . 
+            . . . . . b b 5 5 5 5 5 b . . . 
+            . . . . b b 5 d 1 f 5 d 4 c . . 
+            . . . . b 5 5 1 f f d d 4 4 4 b 
+            . . . . b 5 5 d f b 4 4 4 4 b . 
+            . . . b d 5 5 5 5 4 4 4 4 b . . 
+            . . b d d 5 5 5 5 5 5 5 5 b . . 
+            . b d d d d 5 5 5 5 5 5 5 5 b . 
+            b d d d b b b 5 5 5 5 5 5 5 b . 
+            c d d b 5 5 d c 5 5 5 5 5 5 b . 
+            c b b d 5 d c d 5 5 5 5 5 5 b . 
+            . b 5 5 b c d d 5 5 5 5 5 d b . 
+            b b c c c d d d d 5 5 5 b b . . 
+            . . . c c c c c c c c b b . . . 
+            `,img`
+            . . . . . . . . . . b 5 b . . . 
+            . . . . . . . . . b 5 b . . . . 
+            . . . . . . b b b b b b . . . . 
+            . . . . . b b 5 5 5 5 5 b . . . 
+            . . . . b b 5 d 1 f 5 d 4 c . . 
+            . . . . b 5 5 1 f f d d 4 4 4 b 
+            . . . . b 5 5 d f b 4 4 4 4 b . 
+            . . . b d 5 5 5 5 4 4 4 4 b . . 
+            . b b d d d 5 5 5 5 5 5 5 b . . 
+            b d d d b b b 5 5 5 5 5 5 5 b . 
+            c d d b 5 5 d c 5 5 5 5 5 5 b . 
+            c b b d 5 d c d 5 5 5 5 5 5 b . 
+            c b 5 5 b c d d 5 5 5 5 5 5 b . 
+            b b c c c d d d 5 5 5 5 5 d b . 
+            . . . . c c d d d 5 5 5 b b . . 
+            . . . . . . c c c c c b b . . . 
+            `,img`
+            . . . . . . . . . . b 5 b . . . 
+            . . . . . . . . . b 5 b . . . . 
+            . . . . . . b b b b b b . . . . 
+            . . . . . b b 5 5 5 5 5 b . . . 
+            . . . . b b 5 d 1 f 5 5 d f . . 
+            . . . . b 5 5 1 f f 5 d 4 c . . 
+            . . . . b 5 5 d f b d d 4 4 . . 
+            . b b b d 5 5 5 5 5 4 4 4 4 4 b 
+            b d d d b b d 5 5 4 4 4 4 4 b . 
+            b b d 5 5 5 b 5 5 5 5 5 5 b . . 
+            c d c 5 5 5 5 d 5 5 5 5 5 5 b . 
+            c b d c d 5 5 b 5 5 5 5 5 5 b . 
+            . c d d c c b d 5 5 5 5 5 d b . 
+            . . c b d d d d d 5 5 5 b b . . 
+            . . . c c c c c c c c b b . . . 
+            . . . . . . . . . . . . . . . . 
+            `],
+        100,
+        true
+        )
+        tiles.placeOnRandomTile(wrog, sprites.castle.tilePath5)
+        vpredkosc = 5 * randint(1, 3)
+        wrog.setVelocity(vpredkosc, vpredkosc)
+        wrog.setStayInScreen(false)
+        wrog.setBounceOnWall(true)
+        wrog.z = 3
     } else {
         wrog = sprites.create(img`
             e e e . . . . e e e . . . . 
@@ -228,6 +362,7 @@ function create_wroga () {
         wrog.setVelocity(10 * randint(5, 10), 10 * randint(5, 10))
         wrog.setStayInScreen(false)
         wrog.setBounceOnWall(true)
+        wrog.z = 2
     }
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -825,10 +960,13 @@ function create_rock () {
     mina.setPosition(mySprite.x, mySprite.y)
     mina.z = game.runtime()
 }
+let dy = 0
+let dx = 0
 let mina: Sprite = null
 let ciastko: Sprite = null
 let missile: Sprite = null
 let musicPlayable = false
+let vpredkosc = 0
 let wrog: Sprite = null
 let pocisk = 0
 let ile_min = 0
@@ -894,6 +1032,24 @@ game.onUpdate(function () {
     for (let value5 of sprites.allOfKind(SpriteKind.Landmine)) {
         if (game.runtime() - value5.z > 10000) {
             value5.destroy()
+        }
+    }
+})
+game.onUpdateInterval(500, function () {
+    for (let value of sprites.allOfKind(SpriteKind.Enemy)) {
+        if (value.z == 3) {
+            dx = mySprite.x - value.x
+            dy = mySprite.y - value.y
+            if (dx <= 0) {
+                value.vx = Math.abs(value.vx) * -1
+            } else {
+                value.vx = Math.abs(value.vx) * 1
+            }
+            if (dy <= 0) {
+                value.vy = Math.abs(value.vy) * -1
+            } else {
+                value.vy = Math.abs(value.vy) * 1
+            }
         }
     }
 })
