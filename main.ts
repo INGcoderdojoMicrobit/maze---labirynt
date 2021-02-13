@@ -3,11 +3,11 @@ namespace SpriteKind {
 }
 function setLevel (lvl: number) {
     if (lvl == 0) {
-        tiles.setTilemap(tilemap`level1`)
+        tiles.setTilemap(tilemap`poziom1`)
     } else if (lvl == 1) {
-        tiles.setTilemap(tilemap`level2`)
+        tiles.setTilemap(tilemap`poziom2`)
     } else if (lvl == 2) {
-        tiles.setTilemap(tilemap`level_Michalina`)
+        tiles.setTilemap(tilemap`poziom_Michalina`)
     } else if (lvl == 3) {
         tiles.setTilemap(tilemap`level_MaksG`)
     } else if (lvl == 4) {
@@ -925,6 +925,7 @@ function musik () {
     }
 }
 scene.onOverlapTile(SpriteKind.Player, sprites.castle.tilePath6, function (sprite, location) {
+    controller.moveSprite(mySprite, 0, 0)
     music.powerUp.play()
     level += 1
     setLevel(level)
@@ -947,10 +948,14 @@ scene.onOverlapTile(SpriteKind.Player, sprites.castle.tilePath6, function (sprit
     create_ciastko()
     create_wroga()
     if (level >= 1) {
-        for (let index = 0; index < randint(1, 4); index++) {
+        for (let index = 0; index < randint(1, level); index++) {
             create_ciastko()
         }
-        create_wroga()
+        if (level >= 4) {
+            for (let index = 0; index < randint(1, level); index++) {
+                create_wroga()
+            }
+        }
     }
     controller.moveSprite(mySprite, 100, 100)
     scene.cameraFollowSprite(mySprite)
@@ -1094,34 +1099,6 @@ mySprite = sprites.create(img`
     . . . . . f f . . f f . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 100)
-let new_levels = [img`
-    f f f f f f f f f f 
-    f f f f f f f f f f 
-    f f f f f f f f f f 
-    f 4 f f f f f f 7 f 
-    f f f f f f f f f f 
-    f f f f f f f f f f 
-    f f f f f f f f f f 
-    f f f f f f f f f f 
-    `, img`
-    9 9 9 9 9 9 9 9 9 9 
-    9 9 9 9 9 9 9 9 9 9 
-    9 9 9 9 9 9 9 9 9 9 
-    9 4 9 9 9 9 9 9 7 9 
-    9 9 9 9 9 9 9 9 9 9 
-    9 9 9 9 9 9 9 9 9 9 
-    9 9 9 9 9 9 9 9 9 9 
-    9 9 9 9 9 9 9 9 9 9 
-    `, img`
-    3 3 3 3 3 3 3 3 3 3 
-    3 3 3 3 3 3 3 3 3 3 
-    3 3 3 3 3 3 3 3 3 3 
-    3 4 3 3 3 3 3 3 7 3 
-    3 3 3 3 3 3 3 3 3 3 
-    3 3 3 3 3 3 3 3 3 3 
-    3 3 3 3 3 3 3 3 3 3 
-    3 3 3 3 3 3 3 3 3 3 
-    `]
 setLevel(level)
 tiles.placeOnRandomTile(mySprite, sprites.castle.tilePath4)
 scene.cameraFollowSprite(mySprite)
@@ -1378,6 +1355,80 @@ game.onUpdateInterval(500, function () {
             }
             if (value6.x < mySprite.x) {
                 value6.setVelocity(10, value6.vy)
+                animation.runImageAnimation(
+                value6,
+                [img`
+                    f f f . . . . . . . . f f f . . 
+                    c b b c f . . . . . . c c f f . 
+                    . c b b c f . . . . . . c c f f 
+                    . c c c b f . . . . . . c f c f 
+                    . c c b b c f . c c . c c f f f 
+                    . c b b c b f c c 3 c c 3 c f f 
+                    . c b c c b f c b 3 c b 3 b f f 
+                    . . c c c b b c b b b b b b c . 
+                    . . . c c c c b b 1 b b b 1 c . 
+                    . . . . c c b b b b b b b b b c 
+                    . . . . f b b b b c b b b c b c 
+                    . . . c f b b b b 1 f f f 1 b f 
+                    . . c c f b b b b b b b b b b f 
+                    . . . . f c b b b b b b b b f . 
+                    . . . . . f c b b b b b b f . . 
+                    . . . . . . f f f f f f f . . . 
+                    `,img`
+                    . . . . . . . . . . . f f f . . 
+                    f f f . . . . . . . . c c f f f 
+                    c b b c f . . . c c . . c c f f 
+                    . c b b b f f c c 3 c c 3 c f f 
+                    . c c c b b f c b 3 c b 3 b f f 
+                    . c c b c b f c b b b b b b c . 
+                    . c b b c b b c b b b b b b c . 
+                    . c b c c c b b b 1 b b b 1 b c 
+                    . . c c c c c b b b b b b b b c 
+                    . . . c f b b b b c b b b c b f 
+                    . . c c f b b b b 1 f f f 1 b f 
+                    . . . . f c b b b b b b b b f . 
+                    . . . . . f c b b b b b b f . . 
+                    . . . . . . f f f f f f f . . . 
+                    . . . . . . . . . . . . . . . . 
+                    . . . . . . . . . . . . . . . . 
+                    `,img`
+                    . . . . . . . . . . . . . . . . 
+                    . . . . . . . . c c . . c c . . 
+                    . . . . . . c c c 3 c c 3 c . . 
+                    . . . . . c c c b 3 c b 3 b c . 
+                    . . . . f f b b b b b b b b c . 
+                    . . . . f f b b b b b b b b c c 
+                    . . . f f f c b b 1 b b b 1 b c 
+                    . . . f f f f b b b b b b b b c 
+                    . . . b b b c c b c b b b c b f 
+                    . . . c c c c f b 1 f f f 1 b f 
+                    . . . c c b b f b b b b b b f . 
+                    . . . c b b c c b b b b b f c c 
+                    . . c b b c c f f f f f f c c c 
+                    . c c c c c . . . . . . c c c . 
+                    c c c c . . . . . . . c c c . . 
+                    . . . . . . . . . . . . . . . . 
+                    `,img`
+                    . f f f . . . . . . . . f f f . 
+                    . c b b c f . . . . . . . c f f 
+                    . . c b b c f . . . . . . c c f 
+                    . . c c c b f . . . . . . . f c 
+                    . . c c b b f f . . . . . f f c 
+                    . . c b b c b f c c . c c f f f 
+                    . . c b c c b f c c c c c f f f 
+                    . . . c c c b c b 3 c c 3 c f . 
+                    . . . c c c c b b 3 c b 3 b c . 
+                    . . . . c c b b b b b b b b c c 
+                    . . . c f b b b b 1 b b b 1 b c 
+                    . . c c f b b b b b b b b b b f 
+                    . . . . f b b b b c b b b c b f 
+                    . . . . f c b b b 1 f f f 1 f . 
+                    . . . . . f c b b b b b b f . . 
+                    . . . . . . f f f f f f f . . . 
+                    `],
+                100,
+                true
+                )
             } else if (value6.x > mySprite.x) {
                 value6.setVelocity(-10, value6.vy)
                 animation.runImageAnimation(
