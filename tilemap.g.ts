@@ -92,39 +92,6 @@ namespace myTiles {
 2 2 . . . . . . . . . . . . . 2 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 `, [myTiles.transparency16,sprites.castle.tileGrass1,sprites.castle.tileGrass3,sprites.castle.tilePath4,sprites.castle.tilePath5,sprites.castle.tilePath6,sprites.castle.tileGrass2], TileScale.Sixteen);
-            case "level_Rafal":
-            case "level6":return tiles.createTilemap(hex`1e001e000e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e1f0a0e0e1f1f1f0e0e1f1f1f1f0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e011f1f060e0c1f061f1f1f1f0f0f1f060e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0a1f0e0e0e1f040f0f0f1f0f061f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0e1f0a0e1f1f0f0f0f0f1f0f0f1f060f0f1f0e110e0f0e0f0e0e1f0e0e0e0e1f0e0e1f0f0f0f050f1f0b0f1f0f0f0f1f0e0e0e0e0e0e0e0e1f0e0e0e0a1f0a0e1f1f1f1f1f1f1f1f1f1f060f0f1f0e0e0e0e0e0e0e111f0e0e0e0e1f0e0e1f0f0f050f0f1f0f0f0f0f0f0c1f0e0e0e0e0e0e0e0e1f0f0e0f0e1f0e0e1f0a0f0f0f0f1f0f0f0f0f0f0f1f0e110e0e0e0f0e0e1f0e0e0f0e1f0e0e1f0f0f0f0f0f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0f1f0e0f1f0f0f0f0f0f1f0b030a0f0202020f0f0f0f0f0f0f0f1f0f0e0e0e1f0e0e1f1f1f1f1f1f1f0303040f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e0e1f0e1f1f0f0f0f0f0f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0a1f0e1f0f0f0f0f0f0f0f0f0f0f1f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0c1f12131212121212121f121212121f0f0f0f0f02021f02020f0f1f0e0e0e1f1f1f1f1f0e100e121f120f1f1f1f1f1f1f0f0f0f1f0f0f0f0f1f0e0e0e0e0e0e0b1f0e0e0e121f120f1f0b1f0f0f1f0f0f0f1f0f0f0f0c1f0f0e0e1f1f1f1f1f0e100e121f120f1f031f0f0f1f0f0f0f1f0f0f0f0f1f0e0e101f0e0e0e0e0e0e0e141f120f1f031f0f0f1f0f0f0b1f0f0f110f1f0e0e0e1f1f1f1f1f1f1f1f121f13101f031f110f1f1f1f1f1f0f0f0f0f1f0e0e0e1f09090909091f021414140f1f031f0f0f0f0f0d0f110f0f110f1f0e0e101f09091f1f091f1f1f1f1f1f1f031f0f0f0f0f0f0f0f0f0f0f0f1f07080e1f09091f09091f0b15161616171f1f1f1f1f1f1f1f1f1f0f0f0f1f0e0e0e1f091f1f1f1f1f09191e1e1e181f0b0f0f0f0d0f0f0f1f0f0f0f1f0e0e0e1f090909090909091a1d1c1d1b1f0f0f0f0f0f0f0f0f1f0f0f0f1f0e0e0c1f1f1f1f1f1f1f1f1f1f1f1f1f1f0f10100f0f0f0f0f1f1f1f1f1f0e0e0e100e0e0e0e0e0d0e0e100e0e101f0f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e0e0e0e100e0e0e0e100e0e0e0e1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0e0e0e0e0e0e0e100e0e0e0e0e0e0e0e0e0e0d0e0e0e0e0e0e0e0e0e0e`, img`
-222222222222222222222222222222
-22.222...22....222222222222222
-...222.2....22.222222222222222
-22.222.2222.22..............22
-22.22..2222.22.222.22222222.22
-22.22.22222.22.222.22222222.22
-22.22..........222.22222222.22
-22.22.22222.222222.22222222.22
-22.22.22222.222222.22222222.22
-22.22.22222.................22
-22.22.22222.222222222222222.22
-22.22.......222222222222222.22
-22.2..22222.................22
-22.2.2222222222.22222222222.22
-2...........................22
-2.22222222.2222.222222.2222.22
-2.....2222.22......222.2222.22
-22222.2222.22.2.22.222.2222.22
-2.....2222.22.2.22.222.2222.22
-2.22222222.22.2.22.222.2222.22
-2..........22.2.22.....2222.22
-2.22222.22222.2.22222222222.22
-2.22..2.......2.22222222222...
-2.22.22.222222..........222.22
-2.2.....222222.22222222.222.22
-2.222222222222.22222222.222.22
-2..............22222222.....22
-22222222222222.222222222222.22
-22222222222222..............22
-222222222222222222222222222222
-`, [myTiles.transparency16,sprites.castle.tilePath4,sprites.builtin.forestTiles0,sprites.builtin.forestTiles26,sprites.builtin.forestTiles6,sprites.builtin.forestTiles12,sprites.builtin.forestTiles16,sprites.builtin.forestTiles4,sprites.castle.tilePath6,sprites.dungeon.chestOpen,sprites.dungeon.collectibleInsignia,sprites.dungeon.doorLockedSouth,sprites.dungeon.doorLockedEast,sprites.dungeon.doorLockedNorth,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorLightMoss,sprites.dungeon.floorLight3,sprites.dungeon.floorDark1,sprites.dungeon.floorDark3,sprites.dungeon.floorDark5,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.castle.tilePath5,myTiles.tile1], TileScale.Sixteen);
             case "level8":
             case "level8":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
 . . . . . . . . . . . . . . . . 
@@ -229,39 +196,6 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
-            case "level_MaksG":
-            case "level4":return tiles.createTilemap(hex`1e001e000e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e1f0a0e0e1f1f1f0e0e1f1f1f1f0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e011f1f060e0c1f061f1f1f1f0f0f1f060e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0a1f0e0e0e1f040f0f0f1f0f061f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0e1f0a0e1f1f0f0f0f0f1f0f0f1f060f0f1f0e110e0f0e0f0e0e1f0e0e0e0e1f0e0e1f0f0f0f050f1f0b0f1f0f0f0f1f0e0e0e0e0e0e0e0e1f0e0e0e0a1f0a0e1f1f1f1f1f1f1f1f1f1f060f0f1f0e0e0e0e0e0e0e111f0e0e0e0e1f0e0e1f0f0f050f0f1f0f0f0f0f0f0c1f0e0e0e0e0e0e0e0e1f0f0e0f0e1f0e0e1f0a0f0f0f0f1f0f0f0f0f0f0f1f0e110e0e0e0f0e0e1f0e0e0f0e1f0e0e1f0f0f0f0f0f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0f1f0e0f1f0f0f0f0f0f1f0b030a0f0202020f0f0f0f0f0f0f0f1f0f0e0e0e1f0e0e1f1f1f1f1f1f1f0303040f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e0e1f0e1f1f0f0f0f0f0f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0a1f0e1f0f0f0f0f0f0f0f0f0f0f1f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0c1f12131212121212121f121212121f0f0f0f0f02021f02020f0f1f0e0e0e1f1f1f1f1f0e100e121f120f1f1f1f1f1f1f0f0f0f1f0f0f0f0f1f0e0e0e0e0e0e0b1f0e0e0e121f120f1f0b1f0f0f1f0f0f0f1f0f0f0f0c1f0f0e0e1f1f1f1f1f0e100e121f120f1f031f0f0f1f0f0f0f1f0f0f0f0f1f0e0e101f0e0e0e0e0e0e0e141f120f1f031f0f0f1f0f0f0b1f0f0f110f1f0e0e0e1f1f1f1f1f1f1f1f121f13101f031f110f1f1f1f1f1f0f0f0f0f1f0e0e0e1f09090909091f021414140f1f031f0f0f0f0f0d0f110f0f110f1f0e0e101f09091f1f091f1f1f1f1f1f1f031f0f0f0f0f0f0f0f0f0f0f0f1f07080e1f09091f09091f0b15161616171f1f1f1f1f1f1f1f1f1f0f0f0f1f0e0e0e1f091f1f1f1f1f09191e1e1e181f0b0f0f0f0d0f0f0f1f0f0f0f1f0e0e0e1f090909090909091a1d1c1d1b1f0f0f0f0f0f0f0f0f1f0f0f0f1f0e0e0c1f1f1f1f1f1f1f1f1f1f1f1f1f1f0f10100f0f0f0f0f1f1f1f1f1f0e0e0e100e0e0e0e0e0d0e0e100e0e101f0f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e0e0e0e100e0e0e0e100e0e0e0e1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0e0e0e0e0e0e0e100e0e0e0e0e0e0e0e0e0e0d0e0e0e0e0e0e0e0e0e0e`, img`
-222222222222222222222222222222
-22.222...22....222222222222222
-...222.2....22.222222222222222
-22.222.2222.22..............22
-22.22..2222.22.222.22222222.22
-22.22.22222.22.222.22222222.22
-22.22..........222.22222222.22
-22.22.22222.222222.22222222.22
-22.22.22222.222222.22222222.22
-22.22.22222.................22
-22.22.22222.222222222222222.22
-22.22.......222222222222222.22
-22.2..22222.................22
-22.2.2222222222.22222222222.22
-2...........................22
-2.22222222.2222.222222.2222.22
-2.....2222.22......222.2222.22
-22222.2222.22.2.22.222.2222.22
-2.....2222.22.2.22.222.2222.22
-2.22222222.22.2.22.222.2222.22
-2..........22.2.22.....2222.22
-2.22222.22222.2.22222222222.22
-2.22..2.......2.22222222222...
-2.22.22.222222..........222.22
-2.2.....222222.22222222.222.22
-2.222222222222.22222222.222.22
-2..............22222222.....22
-22222222222222.222222222222.22
-22222222222222..............22
-222222222222222222222222222222
-`, [myTiles.transparency16,sprites.castle.tilePath4,sprites.builtin.forestTiles0,sprites.builtin.forestTiles26,sprites.builtin.forestTiles6,sprites.builtin.forestTiles12,sprites.builtin.forestTiles16,sprites.builtin.forestTiles4,sprites.castle.tilePath6,sprites.dungeon.chestOpen,sprites.dungeon.collectibleInsignia,sprites.dungeon.doorLockedSouth,sprites.dungeon.doorLockedEast,sprites.dungeon.doorLockedNorth,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorLightMoss,sprites.dungeon.floorLight3,sprites.dungeon.floorDark1,sprites.dungeon.floorDark3,sprites.dungeon.floorDark5,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.castle.tilePath5,myTiles.tile1], TileScale.Sixteen);
             case "level12":
             case "level12":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
 . . . . . . . . . . . . . . . . 
@@ -281,39 +215,6 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
-            case "level_Michal":
-            case "level9":return tiles.createTilemap(hex`1e001e00222727272727272727272727272727272727272727272727272727272723240d1e09280d1e1e1e0d281e1e1e1e0d0d0d0d0d080d0d0d290d0d300d26011e1e060d0b1e061e1e1e1e0e0e1e060d0d0d0d0d0d0d280d0d0d0d0d2624091e0d0d0d1e040e0e0e1e0e061e1e1e1e1e1e1e1e1e1e1e1e1e1e0d26240d1e1e1e1e1e0e0e280e1e0e0e1e060e0e1e0d100e0e0d0e0d0d1e0d26240d1e1e1e1e0e280e050e1e0a0e1e0e0e0e1e0d1f0e1f0d1f280d1e0d2624091e1e1e1e1e1e1e1e1e1e1e1e1e060e0e1e0d0e1f2a1f0e1f101e0d26240d1e1e1e1e0e0e050e0e1e0e0e290e0e0b1e0e1f0e1f0e1f0d0d1e0e2624291e1e1e1e090e0e0e281e0e0e0e0e0e0e1e0d100d0e0d0e0d0d1e0d26240d1e1e1e1e0e280e0e0e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e0d26240e1e1e1e1e0e0e29280e1e0a03090e3131310e0e0e0e28280e0e1e0e26240d1e1e1e1e1e1e1e1e1e1e0303040e0e0e0e0e282828280e0e0e1e0d26240d1e1e1e1e0e0e0e0e281e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e0d2624091e1e1e0e0e280e0e0e0e0e280e1e0e0e0e0e0e0e0e0e0e0e0e1e0d26241e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e0d26240c11121111111111111e111111111e0e0e0e0e02021e02020e0e1e0d26241e1e1e1e1e0d0f0d111e110e1e1e1e1e1e1e0e0e0e1e0f0f0f0e1e0d26240d0d0d0a1e312a31311e110e1e2c1e0e0e1e3131311e0f0f0f0b1e0e26241e1e1e1e1e3131312a1e110e1e2c1e0e0e1e0e0e0e1e0e0f0f0f1e0d26241e0d0d0d0d0d0d0d131e110e1e2c1e0e0e1e0e0e0a1e0e09100e1e0d26241e2b2b2b1e1e1e1e111e120f1e2c1e100e1e1e1e1e1e0e0e090e1e0d26241e2a2b2b2a2a1e021313130e1e2c1e0e0e0e0e0c0e100e0e070e1e0d26241e2b2b2b2b2b1e1e1e1e1e1e1e2c1e0e0e0e0e0e0e0e0e0e0e0e1e0607241e2b2b2b2b2b2b0a14151515162c1e1e1e1e1e1e1e1e1e0e0e0e1e0d26241e2b2b2b2b2a2b08181d0829172c0a2d2d2d2f100e0e1e0e290e1e0e26241e2a2b2b2a2a0808191c1b1c1a1e0e0e292d2f2f2e2f1e0e0e0e1e0e260b1e1e0d0d0d1e1e1e1e1e1e1e1e1e0e0f0f0e290e0e0e1e1e1e1e1e0d26240f280e0d0d0d0c0d280f280d2a1e0e0e0e0e0e0e0e0e0e0e0e0e1e0d26240d0e290f0d0d282b2b2b2b2b2a1e1e1e1e1e1e1e1e1e1e1e1e1e1e0d26212525252525252525252525252525252525250c25252525252525252520`, img`
-222222222222222222222222222222
-22.222...22....222222222222.22
-...222.2....22.22222222222..22
-22.222.2222.22..............22
-22.....2222.22.222.22222222.22
-22....22222.22.222.22222222.22
-22.............222.22222222.22
-22....22222.222222.22222222.22
-22....22222.222222.22222222.22
-22....22222.................22
-22....22222.2222...2222..22.22
-22..........222222222...222.22
-22....22222.................22
-22...2222222222.22222222222.22
-2...........................22
-2222222222.2222.222222.2222.22
-2.....2222.22......222....2.22
-22222..2...22.2.22........2.22
-2........2.22.2.22.222.2....22
-2.22222222.22.2.22.222.2222.22
-2.222......22.2.22.....2222.22
-2.22222.22222.2.22222222..2.22
-2.22222.......2.2222222..22.2.
-2.2222222222222.........222.22
-2.22222222222222.....22.222.22
-2.222222222222.222......222.22
-2..222.........22222222.....22
-22...2.2222222.222222222222.22
-2222...2222222..............22
-222222222222222222222222222222
-`, [myTiles.transparency16,sprites.castle.tilePath4,sprites.builtin.forestTiles0,sprites.builtin.forestTiles26,sprites.builtin.forestTiles6,sprites.builtin.forestTiles12,sprites.builtin.forestTiles16,sprites.castle.tilePath6,sprites.dungeon.chestOpen,sprites.dungeon.collectibleInsignia,sprites.dungeon.doorLockedSouth,sprites.dungeon.doorLockedEast,sprites.dungeon.doorLockedNorth,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorLightMoss,sprites.dungeon.floorLight3,sprites.dungeon.floorDark1,sprites.dungeon.floorDark3,sprites.dungeon.floorDark5,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.castle.tilePath5,sprites.dungeon.chestClosed,sprites.dungeon.purpleOuterSouthWest,sprites.dungeon.purpleOuterSouthEast,sprites.dungeon.purpleOuterNorthWest,sprites.dungeon.purpleOuterNorthEast,sprites.dungeon.purpleOuterWest0,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.purpleOuterEast0,sprites.dungeon.purpleOuterNorth1,sprites.dungeon.floorLight5,sprites.builtin.crowd0,sprites.dungeon.hazardLava0,sprites.dungeon.hazardLava1,sprites.dungeon.doorOpenEast,sprites.dungeon.darkGroundSouthEast1,sprites.dungeon.floorLight4,sprites.dungeon.floorDarkDiamond,sprites.castle.tilePath2,sprites.builtin.forestTiles2,myTiles.tile1], TileScale.Sixteen);
             case "level13":
             case "level13":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
 . . . . . . . . . . . . . . . . 
@@ -399,6 +300,105 @@ namespace myTiles {
 ..............................
 ..............................
 `, [myTiles.transparency16,sprites.builtin.forestTiles10,sprites.builtin.field1,sprites.dungeon.floorLight2,sprites.dungeon.floorDark2,sprites.dungeon.darkGroundNorthWest1,sprites.castle.tilePath6], TileScale.Sixteen);
+            case "level_Rafal":
+            case "level6":return tiles.createTilemap(hex`1e001e000e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e1f0a0e0e1f1f1f0e0e1f1f1f1f0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e011f1f060e0c1f061f1f1f1f0f0f1f060e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0a1f0e0e0e1f040f0f0f1f0f061f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0e1f0a0e1f1f0f0f0f0f1f0f0f1f060f0f1f0e110e0f0e0f0e0e1f0e0e0e0e1f0e0e1f0f0f0f050f1f0b0f1f0f0f0f1f0e0e0e0e0e0e0e0e1f0e0e0e0a1f0a0e1f1f1f1f1f1f1f1f1f1f060f0f1f0e0e0e0e0e0e0e111f0e0e0e0e1f0e0e1f0f0f050f0f1f0f0f0f0f0f0c1f0e0e0e0e0e0e0e0e1f0f0e0f0e1f0e0e1f0a0f0f0f0f1f0f0f0f0f0f0f1f0e110e0e0e0f0e0e1f0e0e0f0e1f0e0e1f0f0f0f0f0f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0f1f0e0f1f0f0f0f0f0f1f0b030a0f0202020f0f0f0f0f0f0f0f1f0f0e0e0e1f0e0e1f1f1f1f1f1f1f0303040f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e0e1f0e1f1f0f0f0f0f0f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0a1f0e1f0f0f0f0f0f0f0f0f0f0f1f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0c1f12131212121212121f121212121f0f0f0f0f02021f02020f0f1f0e0e0e1f1f1f1f1f0e100e121f120f1f1f1f1f1f1f0f0f0f1f0f0f0f0f1f0e0e0e0e0e0e0b1f0e0e0e121f120f1f0b1f0f0f1f0f0f0f1f0f0f0f0c1f0f0e0e1f1f1f1f1f0e100e121f120f1f031f0f0f1f0f0f0f1f0f0f0f0f1f0e0e101f0e0e0e0e0e0e0e141f120f1f031f0f0f1f0f0f0b1f0f0f110f1f0e0e0e1f1f1f1f1f1f1f1f121f13101f031f110f1f1f1f1f1f0f0f0f0f1f0e0e0e1f09090909091f021414140f1f031f0f0f0f0f0d0f110f0f110f1f0e0e101f09091f1f091f1f1f1f1f1f1f031f0f0f0f0f0f0f0f0f0f0f0f1f07080e1f09091f09091f0b15161616171f1f1f1f1f1f1f1f1f1f0f0f0f1f0e0e0e1f091f1f1f1f1f09191e1e1e181f0b0f0f0f0d0f0f0f1f0f0f0f1f0e0e0e1f090909090909091a1d1c1d1b1f0f0f0f0f0f0f0f0f1f0f0f0f1f0e0e0c1f1f1f1f1f1f1f1f1f1f1f1f1f1f0f10100f0f0f0f0f1f1f1f1f1f0e0e0e100e0e0e0e0e0d0e0e100e0e101f0f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e0e0e0e100e0e0e0e100e0e0e0e1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0e0e0e0e0e0e0e100e0e0e0e0e0e0e0e0e0e0d0e0e0e0e0e0e0e0e0e0e`, img`
+222222222222222222222222222222
+22.222...22....222222222222222
+...222.2....22.222222222222222
+22.222.2222.22..............22
+22.22..2222.22.222.22222222.22
+22.22.22222.22.222.22222222.22
+22.22..........222.22222222.22
+22.22.22222.222222.22222222.22
+22.22.22222.222222.22222222.22
+22.22.22222.................22
+22.22.22222.222222222222222.22
+22.22.......222222222222222.22
+22.2..22222.................22
+22.2.2222222222.22222222222.22
+2...........................22
+2.22222222.2222.222222.2222.22
+2.....2222.22......222.2222.22
+22222.2222.22.2.22.222.2222.22
+2.....2222.22.2.22.222.2222.22
+2.22222222.22.2.22.222.2222.22
+2..........22.2.22.....2222.22
+2.22222.22222.2.22222222222.22
+2.22..2.......2.22222222222...
+2.22.22.222222..........222.22
+2.2.....222222.22222222.222.22
+2.222222222222.22222222.222.22
+2..............22222222.....22
+22222222222222.222222222222.22
+22222222222222..............22
+222222222222222222222222222222
+`, [myTiles.transparency16,sprites.castle.tilePath4,sprites.builtin.forestTiles0,sprites.builtin.forestTiles26,sprites.builtin.forestTiles6,sprites.builtin.forestTiles12,sprites.builtin.forestTiles16,sprites.builtin.forestTiles4,sprites.castle.tilePath6,sprites.dungeon.chestOpen,sprites.dungeon.collectibleInsignia,sprites.dungeon.doorLockedSouth,sprites.dungeon.doorLockedEast,sprites.dungeon.doorLockedNorth,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorLightMoss,sprites.dungeon.floorLight3,sprites.dungeon.floorDark1,sprites.dungeon.floorDark3,sprites.dungeon.floorDark5,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.castle.tilePath5], TileScale.Sixteen);
+            case "level_MaksG":
+            case "level4":return tiles.createTilemap(hex`1e001e000e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e1f0a0e0e1f1f1f0e0e1f1f1f1f0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e011f1f060e0c1f061f1f1f1f0f0f1f060e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0a1f0e0e0e1f040f0f0f1f0f061f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0e1f0a0e1f1f0f0f0f0f1f0f0f1f060f0f1f0e110e0f0e0f0e0e1f0e0e0e0e1f0e0e1f0f0f0f050f1f0b0f1f0f0f0f1f0e0e0e0e0e0e0e0e1f0e0e0e0a1f0a0e1f1f1f1f1f1f1f1f1f1f060f0f1f0e0e0e0e0e0e0e111f0e0e0e0e1f0e0e1f0f0f050f0f1f0f0f0f0f0f0c1f0e0e0e0e0e0e0e0e1f0f0e0f0e1f0e0e1f0a0f0f0f0f1f0f0f0f0f0f0f1f0e110e0e0e0f0e0e1f0e0e0f0e1f0e0e1f0f0f0f0f0f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0f1f0e0f1f0f0f0f0f0f1f0b030a0f0202020f0f0f0f0f0f0f0f1f0f0e0e0e1f0e0e1f1f1f1f1f1f1f0303040f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e0e1f0e1f1f0f0f0f0f0f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0a1f0e1f0f0f0f0f0f0f0f0f0f0f1f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0c1f12131212121212121f121212121f0f0f0f0f02021f02020f0f1f0e0e0e1f1f1f1f1f0e100e121f120f1f1f1f1f1f1f0f0f0f1f0f0f0f0f1f0e0e0e0e0e0e0b1f0e0e0e121f120f1f0b1f0f0f1f0f0f0f1f0f0f0f0c1f0f0e0e1f1f1f1f1f0e100e121f120f1f031f0f0f1f0f0f0f1f0f0f0f0f1f0e0e101f0e0e0e0e0e0e0e141f120f1f031f0f0f1f0f0f0b1f0f0f110f1f0e0e0e1f1f1f1f1f1f1f1f121f13101f031f110f1f1f1f1f1f0f0f0f0f1f0e0e0e1f09090909091f021414140f1f031f0f0f0f0f0d0f110f0f110f1f0e0e101f09091f1f091f1f1f1f1f1f1f031f0f0f0f0f0f0f0f0f0f0f0f1f07080e1f09091f09091f0b15161616171f1f1f1f1f1f1f1f1f1f0f0f0f1f0e0e0e1f091f1f1f1f1f09191e1e1e181f0b0f0f0f0d0f0f0f1f0f0f0f1f0e0e0e1f090909090909091a1d1c1d1b1f0f0f0f0f0f0f0f0f1f0f0f0f1f0e0e0c1f1f1f1f1f1f1f1f1f1f1f1f1f1f0f10100f0f0f0f0f1f1f1f1f1f0e0e0e100e0e0e0e0e0d0e0e100e0e101f0f0f0f0f0f0f0f0f0f0f0f0f1f0e0e0e0e0e0e100e0e0e0e100e0e0e0e1f1f1f1f1f1f1f1f1f1f1f1f1f1f0e0e0e0e0e0e0e0e0e0e100e0e0e0e0e0e0e0e0e0e0d0e0e0e0e0e0e0e0e0e0e`, img`
+222222222222222222222222222222
+22.222...22....222222222222222
+...222.2....22.222222222222222
+22.222.2222.22..............22
+22.22..2222.22.222.22222222.22
+22.22.22222.22.222.22222222.22
+22.22..........222.22222222.22
+22.22.22222.222222.22222222.22
+22.22.22222.222222.22222222.22
+22.22.22222.................22
+22.22.22222.222222222222222.22
+22.22.......222222222222222.22
+22.2..22222.................22
+22.2.2222222222.22222222222.22
+2...........................22
+2.22222222.2222.222222.2222.22
+2.....2222.22......222.2222.22
+22222.2222.22.2.22.222.2222.22
+2.....2222.22.2.22.222.2222.22
+2.22222222.22.2.22.222.2222.22
+2..........22.2.22.....2222.22
+2.22222.22222.2.22222222222.22
+2.22..2.......2.22222222222...
+2.22.22.222222..........222.22
+2.2.....222222.22222222.222.22
+2.222222222222.22222222.222.22
+2..............22222222.....22
+22222222222222.222222222222.22
+22222222222222..............22
+222222222222222222222222222222
+`, [myTiles.transparency16,sprites.castle.tilePath4,sprites.builtin.forestTiles0,sprites.builtin.forestTiles26,sprites.builtin.forestTiles6,sprites.builtin.forestTiles12,sprites.builtin.forestTiles16,sprites.builtin.forestTiles4,sprites.castle.tilePath6,sprites.dungeon.chestOpen,sprites.dungeon.collectibleInsignia,sprites.dungeon.doorLockedSouth,sprites.dungeon.doorLockedEast,sprites.dungeon.doorLockedNorth,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorLightMoss,sprites.dungeon.floorLight3,sprites.dungeon.floorDark1,sprites.dungeon.floorDark3,sprites.dungeon.floorDark5,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.castle.tilePath5], TileScale.Sixteen);
+            case "level_Michal":
+            case "level9":return tiles.createTilemap(hex`1e001e00222727272727272727272727272727272727272727272727272727272723240d1e09280d1e1e1e0d281e1e1e1e0d0d0d0d0d080d0d0d290d0d300d26011e1e060d0b1e061e1e1e1e0e0e1e060d0d0d0d0d0d0d280d0d0d0d0d2624091e0d0d0d1e040e0e0e1e0e061e1e1e1e1e1e1e1e1e1e1e1e1e1e0d26240d1e1e1e1e1e0e0e280e1e0e0e1e060e0e1e0d100e0e0d0e0d0d1e0d26240d1e1e1e1e0e280e050e1e0a0e1e0e0e0e1e0d1f0e1f0d1f280d1e0d2624091e1e1e1e1e1e1e1e1e1e1e1e1e060e0e1e0d0e1f2a1f0e1f101e0d26240d1e1e1e1e0e0e050e0e1e0e0e290e0e0b1e0e1f0e1f0e1f0d0d1e0e2624291e1e1e1e090e0e0e281e0e0e0e0e0e0e1e0d100d0e0d0e0d0d1e0d26240d1e1e1e1e0e280e0e0e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e0d26240e1e1e1e1e0e0e29280e1e0a03090e3131310e0e0e0e28280e0e1e0e26240d1e1e1e1e1e1e1e1e1e1e0303040e0e0e0e0e282828280e0e0e1e0d26240d1e1e1e1e0e0e0e0e281e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e0d2624091e1e1e0e0e280e0e0e0e0e280e1e0e0e0e0e0e0e0e0e0e0e0e1e0d26241e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e0d26240c11121111111111111e111111111e0e0e0e0e02021e02020e0e1e0d26241e1e1e1e1e0d0f0d111e110e1e1e1e1e1e1e0e0e0e1e0f0f0f0e1e0d26240d0d0d0a1e312a31311e110e1e2c1e0e0e1e3131311e0f0f0f0b1e0e26241e1e1e1e1e3131312a1e110e1e2c1e0e0e1e0e0e0e1e0e0f0f0f1e0d26241e0d0d0d0d0d0d0d131e110e1e2c1e0e0e1e0e0e0a1e0e09100e1e0d26241e2b2b2b1e1e1e1e111e120f1e2c1e100e1e1e1e1e1e0e0e090e1e0d26241e2a2b2b2a2a1e021313130e1e2c1e0e0e0e0e0c0e100e0e070e1e0d26241e2b2b2b2b2b1e1e1e1e1e1e1e2c1e0e0e0e0e0e0e0e0e0e0e0e1e0607241e2b2b2b2b2b2b0a14151515162c1e1e1e1e1e1e1e1e1e0e0e0e1e0d26241e2b2b2b2b2a2b08181d0829172c0a2d2d2d2f100e0e1e0e290e1e0e26241e2a2b2b2a2a0808191c1b1c1a1e0e0e292d2f2f2e2f1e0e0e0e1e0e260b1e1e0d0d0d1e1e1e1e1e1e1e1e1e0e0f0f0e290e0e0e1e1e1e1e1e0d26240f280e0d0d0d0c0d280f280d2a1e0e0e0e0e0e0e0e0e0e0e0e0e1e0d26240d0e290f0d0d282b2b2b2b2b2a1e1e1e1e1e1e1e1e1e1e1e1e1e1e0d26212525252525252525252525252525252525250c25252525252525252520`, img`
+222222222222222222222222222222
+22.222...22....222222222222.22
+...222.2....22.22222222222..22
+22.222.2222.22..............22
+22.....2222.22.222.22222222.22
+22....22222.22.222.22222222.22
+22.............222.22222222.22
+22....22222.222222.22222222.22
+22....22222.222222.22222222.22
+22....22222.................22
+22....22222.2222...2222..22.22
+22..........222222222...222.22
+22....22222.................22
+22...2222222222.22222222222.22
+2...........................22
+2222222222.2222.222222.2222.22
+2.....2222.22......222....2.22
+22222..2...22.2.22........2.22
+2........2.22.2.22.222.2....22
+2.22222222.22.2.22.222.2222.22
+2.222......22.2.22.....2222.22
+2.22222.22222.2.22222222..2.22
+2.22222.......2.2222222..22...
+2.2222222222222.........222.22
+2.22222222222222.....22.222.22
+2.222222222222.222......222.22
+2..222.........22222222.....22
+22...2.2222222.222222222222.22
+2222...2222222..............22
+222222222222222222222222222222
+`, [myTiles.transparency16,sprites.castle.tilePath4,sprites.builtin.forestTiles0,sprites.builtin.forestTiles26,sprites.builtin.forestTiles6,sprites.builtin.forestTiles12,sprites.builtin.forestTiles16,sprites.castle.tilePath6,sprites.dungeon.chestOpen,sprites.dungeon.collectibleInsignia,sprites.dungeon.doorLockedSouth,sprites.dungeon.doorLockedEast,sprites.dungeon.doorLockedNorth,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorLightMoss,sprites.dungeon.floorLight3,sprites.dungeon.floorDark1,sprites.dungeon.floorDark3,sprites.dungeon.floorDark5,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.castle.tilePath5,sprites.dungeon.chestClosed,sprites.dungeon.purpleOuterSouthWest,sprites.dungeon.purpleOuterSouthEast,sprites.dungeon.purpleOuterNorthWest,sprites.dungeon.purpleOuterNorthEast,sprites.dungeon.purpleOuterWest0,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.purpleOuterEast0,sprites.dungeon.purpleOuterNorth1,sprites.dungeon.floorLight5,sprites.builtin.crowd0,sprites.dungeon.hazardLava0,sprites.dungeon.hazardLava1,sprites.dungeon.doorOpenEast,sprites.dungeon.darkGroundSouthEast1,sprites.dungeon.floorLight4,sprites.dungeon.floorDarkDiamond,sprites.castle.tilePath2,sprites.builtin.forestTiles2], TileScale.Sixteen);
         }
         return null;
     })
