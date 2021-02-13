@@ -728,15 +728,17 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
+    controller.moveSprite(mySprite, 0, 0)
     otherSprite.startEffect(effects.fire, 1000)
     music.powerDown.play()
     info.changeLifeBy(-1)
-    scene.cameraShake(4, 500)
+    scene.cameraShake(4, 2000)
     sprite.destroy()
     pause(2000)
     create_wroga()
     effects.clearParticles(otherSprite)
     tiles.placeOnRandomTile(mySprite, sprites.castle.tilePath4)
+    controller.moveSprite(mySprite, 100, 100)
 })
 controller.up.onEvent(ControllerButtonEvent.Released, function () {
 	
@@ -965,10 +967,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
     music.pewPew.play()
     otherSprite.destroy()
     sprite.destroy()
-    setTimeout(function on_set_timeout() {
-        music.magicWand.play()
-        create_wroga()
-    }, 10000)
+    music.magicWand.play()
 })
 function create_rock () {
     mina = sprites.create(img`
